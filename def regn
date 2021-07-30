@@ -1,0 +1,42 @@
+
+def rgen(tomato,potato,lemon,carrot,cucumber):
+    print("grocery: 30july,2021")
+    print("product     quantity        price")
+    print("tomato         1 kg           ",tomato)
+    print("potato         5 kg           ",potato)
+    print("lemon          3 kg           ",lemon)
+    print("carrot         2 kg           ",carrot)
+    print("cucumber       2 kg           ",cucumber)
+    add=tomato+potato+lemon+carrot+cucumber
+    print('total')
+    print(add)
+def main():
+    tomato=int(input("enter product name and price"))
+    potato = int(input("enter product name and price"))
+    lemon = int(input("enter product name and price"))
+    carrot = int(input("enter product name and price"))
+    cucumber = int(input("enter product name and price"))
+    rgen(tomato,potato,lemon,carrot,cucumber)
+if __name__ == "__main__":
+        main()
+        
+        
+        
+        
+        output
+enter product name and price50
+enter product name and price400
+enter product name and price250
+enter product name and price100
+enter product name and price80
+grocery: 30july,2021
+product     quantity        price
+tomato         1 kg            50
+potato         5 kg            400
+lemon          3 kg            250
+carrot         2 kg            100
+cucumber       2 kg            80
+total
+880
+
+Process finished with exit code 0
